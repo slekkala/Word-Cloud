@@ -23,6 +23,27 @@
   color: #61dafb;
 }
 
+.Word-Cloud-Container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.Word-Cloud-Text {
+  width : 800px;
+  height : 250px;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
+}
+
+.Word-Cloud {
+   width : 800px;
+   height : 250px;
+   margin: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
